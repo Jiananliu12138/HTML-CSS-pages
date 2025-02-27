@@ -1,0 +1,101 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, PingFangSC-Regular, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+img {
+  vertical-align: bottom;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+header {
+  height: 1.17333333rem;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.17333333rem;
+  padding: 0 0.4rem;
+}
+header .back {
+  margin-left: 0.32rem;
+}
+header h3 {
+  font-size: 0.45333333rem;
+}
+header .righttop {
+  font-size: 0.4rem;
+  color: #2CB5A5;
+}
+.banner {
+  margin-top: 0.8rem;
+  margin-bottom: 0.89333333rem;
+  text-align: center;
+}
+.banner img {
+  width: 6.4rem;
+  height: 5.49333333rem;
+}
+.banner .pipei {
+  margin-top: 0.48rem;
+  font-size: 0.42666667rem;
+}
+.banner .pipei .green {
+  color: #16C2A3;
+}
+.type {
+  padding: 0 0.4rem;
+}
+.type li {
+  border: 1px solid #EDEDED;
+  padding: 0 0.4rem;
+  height: 2.08rem;
+  margin-bottom: 0.4rem;
+  border-radius: 0.10666667rem;
+}
+.type li a {
+  display: flex;
+  align-items: center;
+  height: 2.08rem;
+}
+.type li a img {
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+  margin-right: 0.37333333rem;
+}
+.type li a div {
+  flex: 1;
+}
+.type li a div h3 {
+  font-size: 0.42666667rem;
+  color: #3C3E42;
+  margin-bottom: 0.10666667rem;
+}
+.type li a div p {
+  font-size: 0.34666667rem;
+  color: #848484;
+}
+.type li a .iconfont {
+  font-size: 0.42666667rem;
+}
